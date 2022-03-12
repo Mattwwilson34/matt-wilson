@@ -1,0 +1,26 @@
+:root {
+  --main-color-1: #fbe8a6;
+  --main-color-2: #f4976c;
+  --main-color-3: #303c6c;
+  --main-color-4: #b4dfe5;
+  --main-color-5: #d2fdff;
+}
+
+/* Gloabl Styles */
+.Header {
+  display: block;
+  padding: 1.5rem 8vh;
+  font-style: italic;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+}
