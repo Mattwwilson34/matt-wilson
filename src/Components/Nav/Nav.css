@@ -1,0 +1,50 @@
+:root {
+  --main-color-1: #fbe8a6;
+  --main-color-2: #f4976c;
+  --main-color-3: #303c6c;
+  --main-color-4: #b4dfe5;
+  --main-color-5: #d2fdff;
+}
+
+/* Gloabl Styles */
+.Nav {
+  display: flex;
+  background-color: var(--main-color-1);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Nav {
+    padding: 0.3rem;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .Name {
+    font-size: 1.2rem;
+  }
+
+  .Social-Links-Container {
+    display: flex;
+    gap: 5px;
+  }
+
+  .social-icon[style] {
+    height: 25px !important;
+    width: 25px !important;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
