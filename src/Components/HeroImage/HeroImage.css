@@ -25,16 +25,16 @@
     border-radius: 10px;
     margin: auto;
   }
-}
 
-.Hero-Image-Stament-Container {
-  max-width: 30ch;
-  margin-top: 2rem;
-  margin: auto;
-}
+  .Hero-Image-Stament-Container {
+    max-width: 30ch;
+    margin-top: 2rem;
+    margin: auto;
+  }
 
-.Hero-Image-Stament-Container p {
-  margin-top: 2rem;
+  .Hero-Image-Stament-Container p {
+    margin-top: 2rem;
+  }
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -67,7 +67,7 @@
 @media only screen and (min-width: 1024px) {
   .Hero-Image-Container {
     background-color: var(--main-color-4);
-    padding: 25vh 10vw;
+    padding: 12.5vh 10vw;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
