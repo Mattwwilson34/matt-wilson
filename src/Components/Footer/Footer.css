@@ -11,8 +11,9 @@
   background-color: var(--main-color-2);
   padding: 5vh;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  align-items: center;
 }
 
 .Footer a {
@@ -20,8 +21,35 @@
   margin: 1rem;
 }
 
+.Copyright {
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .Footer {
+    background-color: var(--main-color-2);
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .Foot-Link-Container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .Footer a {
+    text-decoration: none;
+    margin: 1rem;
+  }
+
+  .Copyright {
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+  }
 }
 
 /* iPads (portrait and landscape) ----------- */
