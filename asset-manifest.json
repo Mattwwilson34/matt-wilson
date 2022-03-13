@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/matt-wilson/static/css/main.609adab7.css",
+    "main.js": "/matt-wilson/static/js/main.ab6703e2.js",
+    "static/media/Headshot.jpg": "/matt-wilson/static/media/Headshot.721adf1bfe408b6d6e99.jpg",
+    "index.html": "/matt-wilson/index.html",
+    "main.609adab7.css.map": "/matt-wilson/static/css/main.609adab7.css.map",
+    "main.ab6703e2.js.map": "/matt-wilson/static/js/main.ab6703e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.609adab7.css",
+    "static/js/main.ab6703e2.js"
+  ]
+}
