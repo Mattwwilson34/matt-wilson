@@ -8,20 +8,26 @@
 
 /* Gloabl Styles */
 .Hero-Image {
+  display: block;
+
   max-width: 50vw;
   border-radius: 10px;
+}
+
+.Hero-Image-Stament-Container p {
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  max-width: clamp(40ch, 60ch, 80ch);
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .Hero-Image-Container {
     background-color: var(--main-color-4);
-    padding: 3rem 10vw;
+    padding: 5vh 10vw;
   }
   .Hero-Image {
-    display: block;
     width: clamp(17vh, 20vh, 25vh);
-    border-radius: 10px;
     margin: auto;
   }
 
@@ -46,13 +52,10 @@
     align-items: flex-start;
   }
   .Hero-Image {
-    display: block;
     min-width: 30vh;
     max-width: 35vh;
-    border-radius: 10px;
   }
   .Hero-Image-Stament-Container {
-    max-width: clamp(40ch, 60ch, 80ch);
     margin-left: 2rem;
   }
 
@@ -65,24 +68,18 @@
 @media only screen and (min-width: 1024px) {
   .Hero-Image-Container {
     background-color: var(--main-color-4);
-    padding: 12.5vh 10vw;
+    padding: 12.5vh 14vh 10vw 10vh;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
   }
   .Hero-Image {
-    display: block;
     min-width: 35vh;
     max-width: 40vh;
-    border-radius: 10px;
-    margin-left: auto;
   }
 
   .Hero-Image-Stament-Container {
     margin-left: 2rem;
     font-size: 1.25rem;
-    line-height: 2rem;
-    max-width: clamp(40ch, 60ch, 80ch);
   }
 
   .Hero-Image-Stament-Container p {
