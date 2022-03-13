@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/matt-wilson' element={<App />} />
+        <Route path='/matt-wilson/' element={<App />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

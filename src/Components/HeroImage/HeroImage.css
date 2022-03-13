@@ -20,8 +20,8 @@
   }
   .Hero-Image {
     display: block;
-    min-width: 30vh;
-    max-width: 40vw;
+    min-width: 17vh;
+    max-width: 17vw;
     border-radius: 10px;
     margin: auto;
   }
@@ -67,7 +67,7 @@
 @media only screen and (min-width: 1024px) {
   .Hero-Image-Container {
     background-color: var(--main-color-4);
-    padding: 7rem 10vw;
+    padding: 25vh 10vw;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -75,14 +75,15 @@
   .Hero-Image {
     display: block;
     min-width: 30vh;
-    max-width: 45vh;
+    max-width: 40vh;
     border-radius: 10px;
     margin-left: auto;
   }
 
   .Hero-Image-Stament-Container {
-    max-width: 30ch;
     margin-left: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .Hero-Image-Stament-Container p {

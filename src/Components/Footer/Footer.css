@@ -58,4 +58,22 @@
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
+  .Footer {
+    background-color: var(--main-color-2);
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .Footer a {
+    text-decoration: none;
+    margin: 1rem;
+  }
+
+  .Copyright {
+    margin-top: 0.75rem;
+    font-size: 0.75rem;
+  }
 }

@@ -18,7 +18,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .Header {
     display: block;
-    padding: 2.5rem 8vh;
+    padding: 5vh 2vh;
     font-style: italic;
     text-align: center;
   }
@@ -28,12 +28,22 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .Header {
     display: block;
-    padding: 10vh 8vh;
+    padding: 5vh 2vh;
     font-style: italic;
     text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
   }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1024px) {
+  .Header {
+    display: block;
+    padding: 10vh 2vh;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
 }
