@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/matt-wilson/static/css/main.d70f7164.css",
+    "main.css": "/matt-wilson/static/css/main.29f36087.css",
     "main.js": "/matt-wilson/static/js/main.1d0f9f2f.js",
     "static/media/Headshot.jpg": "/matt-wilson/static/media/Headshot.721adf1bfe408b6d6e99.jpg",
     "index.html": "/matt-wilson/index.html",
-    "main.d70f7164.css.map": "/matt-wilson/static/css/main.d70f7164.css.map",
+    "main.29f36087.css.map": "/matt-wilson/static/css/main.29f36087.css.map",
     "main.1d0f9f2f.js.map": "/matt-wilson/static/js/main.1d0f9f2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d70f7164.css",
+    "static/css/main.29f36087.css",
     "static/js/main.1d0f9f2f.js"
   ]
 }
