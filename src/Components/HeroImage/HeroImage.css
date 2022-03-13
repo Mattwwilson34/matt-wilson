@@ -1,0 +1,91 @@
+:root {
+  --main-color-1: #fbe8a6;
+  --main-color-2: #f4976c;
+  --main-color-3: #303c6c;
+  --main-color-4: #b4dfe5;
+  --main-color-5: #d2fdff;
+}
+
+/* Gloabl Styles */
+.Hero-Image {
+  max-width: 50vw;
+  border-radius: 10px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .Hero-Image-Container {
+    background-color: var(--main-color-4);
+    padding: 3rem 10vw;
+  }
+  .Hero-Image {
+    display: block;
+    min-width: 30vh;
+    max-width: 40vw;
+    border-radius: 10px;
+    margin: auto;
+  }
+}
+
+.Hero-Image-Stament-Container {
+  max-width: 30ch;
+  margin-top: 2rem;
+  margin: auto;
+}
+
+.Hero-Image-Stament-Container p {
+  margin-top: 2rem;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .Hero-Image-Container {
+    background-color: var(--main-color-4);
+    padding: 3rem 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .Hero-Image {
+    display: block;
+    min-width: 30vh;
+    max-width: 45vh;
+    border-radius: 10px;
+    margin-left: auto;
+  }
+  .Hero-Image-Stament-Container {
+    max-width: 30ch;
+    margin-left: 2rem;
+  }
+
+  .Hero-Image-Stament-Container p {
+    margin-top: 0;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1024px) {
+  .Hero-Image-Container {
+    background-color: var(--main-color-4);
+    padding: 3rem 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .Hero-Image {
+    display: block;
+    min-width: 30vh;
+    max-width: 45vh;
+    border-radius: 10px;
+    margin-left: auto;
+  }
+
+  .Hero-Image-Stament-Container {
+    max-width: 30ch;
+    margin-left: 2rem;
+  }
+
+  .Hero-Image-Stament-Container p {
+    margin-top: 0;
+  }
+}

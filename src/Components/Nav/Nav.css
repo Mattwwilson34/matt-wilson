@@ -12,6 +12,11 @@
   background-color: var(--main-color-1);
 }
 
+.Name {
+  display: flex;
+  align-items: center;
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .Nav {
