@@ -20,8 +20,7 @@
   }
   .Hero-Image {
     display: block;
-    min-width: 17vh;
-    max-width: 17vw;
+    width: clamp(17vh, 20vh, 25vh);
     border-radius: 10px;
     margin: auto;
   }
@@ -41,20 +40,19 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .Hero-Image-Container {
     background-color: var(--main-color-4);
-    padding: 3rem 10vw;
+    padding: 12.5vh 10vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
   }
   .Hero-Image {
     display: block;
     min-width: 30vh;
-    max-width: 45vh;
+    max-width: 35vh;
     border-radius: 10px;
-    margin-left: auto;
   }
   .Hero-Image-Stament-Container {
-    max-width: 30ch;
+    max-width: clamp(40ch, 60ch, 80ch);
     margin-left: 2rem;
   }
 
@@ -74,7 +72,7 @@
   }
   .Hero-Image {
     display: block;
-    min-width: 30vh;
+    min-width: 35vh;
     max-width: 40vh;
     border-radius: 10px;
     margin-left: auto;
@@ -82,8 +80,9 @@
 
   .Hero-Image-Stament-Container {
     margin-left: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 2rem;
+    max-width: clamp(40ch, 60ch, 80ch);
   }
 
   .Hero-Image-Stament-Container p {
