@@ -31,7 +31,7 @@
     padding: 5vh 2vh;
     font-style: italic;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2.25rem;
   }
 }
@@ -40,7 +40,7 @@
 @media only screen and (min-width: 1024px) {
   .Header {
     display: block;
-    padding: 10vh 2vh;
+    padding: 5vh 2vh;
     font-style: italic;
     text-align: center;
     font-size: 1.5rem;
